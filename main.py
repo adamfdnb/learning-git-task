@@ -1,6 +1,4 @@
-lista_zakupow = {
-    'piekarnia': ['Chleb', 'Pączek', 'Bułki'],
-    'warzywniak': ['Marchew', 'Seler', 'Rukola']
-}
-for i , j in lista_zakupow.items():
-    print(f"Idę do {i.capitalize()} kupuję tu następujące rzeczy: {[x.capitalize() for x in j]} ")
+text = "ciesze się, że tu jestem i mogę piać do Cebie z tego miejsca. "
+text2 ="Pozdrawiam "
+
+print(f"{text.title()} \n{text2.upper()} ")
